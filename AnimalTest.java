@@ -74,6 +74,26 @@ public class AnimalTest{
 		System.out.println("I can't go through "+cat1.getBoundaries());
 
 
+		//Wolf Test
+		System.out.println("\nWolf objects:");
+		Wolf wolf1 = new Wolf();
+
+		wolf1.setLocation("Surburbs!");
+		wolf1.setBoundaries("Town");
+		wolf1.setPicture(8);
+		wolf1.setHunger(9);
+
+		wolf1.eat();
+		wolf1.roam();
+		wolf1.sleep();
+		wolf1.makeNoise();
+
+
+		System.out.println("I'm at "+wolf1.getLocation());
+		System.out.println("My level of hunger is "+wolf1.getHunger());
+		System.out.println("I have "+wolf1.getPicture()+" Pictures");
+		System.out.println("I cant go through "+wolf1.getBoundaries());
+
 	}
 	
 }
