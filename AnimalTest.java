@@ -54,6 +54,26 @@ public class AnimalTest{
 		System.out.println("I cant go through "+tiger1.getBoundaries());
 
 
+		System.out.println("\nCat objects:");
+		Cat cat1 = new Cat();
+
+		cat1.setLocation("Kitchen!");
+		cat1.setBoundaries("the gate");
+		cat1.setPicture(5);
+		cat1.setHunger(5);
+
+		cat1.eat();
+		cat1.roam();
+		cat1.sleep();
+		cat1.makeNoise();
+
+
+		System.out.println("I'm at "+cat1.getLocation());
+		System.out.println("My level of hunger is "+cat1.getHunger());
+		System.out.println("I have "+cat1.getPicture()+" Pictures");
+		System.out.println("I can't go through "+cat1.getBoundaries());
+
+
 	}
 	
 }
