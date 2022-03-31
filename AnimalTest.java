@@ -94,6 +94,27 @@ public class AnimalTest{
 		System.out.println("I have "+wolf1.getPicture()+" Pictures");
 		System.out.println("I cant go through "+wolf1.getBoundaries());
 
+
+		//Dog Test
+		System.out.println("\nDog objects:");
+		Dog dog1 = new Dog();
+
+		dog1.setLocation("Living Room!");
+		dog1.setBoundaries("Main Door");
+		dog1.setPicture(65);
+		dog1.setHunger(4);
+
+		dog1.eat();
+		dog1.roam();
+		dog1.sleep();
+		dog1.makeNoise();
+
+
+		System.out.println("I'm at "+dog1.getLocation());
+		System.out.println("My level of hunger is "+dog1.getHunger());
+		System.out.println("I have "+dog1.getPicture()+" Pictures");
+		System.out.println("I cant go through "+dog1.getBoundaries());
+
 	}
 	
 }
