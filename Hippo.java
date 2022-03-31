@@ -11,7 +11,7 @@ public class Hippo extends Animal{
 		if(getHunger() >= 7){
 			int hun = getHunger();
 			hun--;
-			System.out.println("I guess it's eating time");
+			System.out.println("Lemme get myself some grass");
 		}else{
 			System.out.println("I am full!!");
 		}
