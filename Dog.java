@@ -8,7 +8,7 @@ public class Dog extends Canine{
 		if(getHunger() > 5){
 			System.out.println("May I have some Dog Food Please!");
 		}else{
-			System.out.println("Oh! Please I have had enough Dog-foo already!");
+			System.out.println("Oh! Please I have had enough Dog-food already!");
 		}
 	}
 
